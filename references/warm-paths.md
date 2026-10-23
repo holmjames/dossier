@@ -9,8 +9,8 @@ connection to, shows them, and drafts the first note. The user sends it.
 Someone who works at the target company now and shares one of the user's networks, in
 rough order of warmth:
 
-1. Same school and same program, overlapping or recent years (an Anderson FEMBA at Adobe
-   for an Anderson FEMBA applying to Adobe)
+1. Same school and same program, overlapping or recent years (a McCombs MBA at Adobe
+   for a McCombs MBA applying to Adobe)
 2. Same school, any program
 3. Former colleague: worked at one of the user's past employers, now at the target company
 4. Same professional community (user group, fellowship, service program, military unit)
@@ -34,7 +34,7 @@ people (more likely to refer), since that changes who gets listed first.
   outreach, not a map of the org.
 - **Stored in the application folder only** (`warm_paths.md`), alongside the posting it was
   found for, and deleted if the user drops the application. The tracker gets a one-line
-  note ("warm path: 2 Anderson alumni identified"), not the names.
+  note ("warm path: 2 McCombs alumni identified"), not the names.
 - **The user does the outreach.** Claude drafts; it does not send messages, connection
   requests, or emails, and does not create or log into accounts.
 - **No bulk reading.** Reading the first page of an alumni search in the user's own browser
@@ -53,8 +53,9 @@ opens it. Give them the exact page:
 https://www.linkedin.com/school/<school-slug>/people/?keywords=<Company>
 ```
 
-For UCLA Anderson the slug is `ucla-anderson-school-of-management`; for a university it is
-usually the name with hyphens (`purdue-university`). If unsure, have them search the school
+For a business school the slug is usually its full name with hyphens
+(`mccombs-school-of-business`); for a university it is the name with hyphens
+(`purdue-university`). If unsure, have them search the school
 on LinkedIn and click "Alumni" on its page. On the alumni page they type the company name in
 the search box, then narrow with "What they do" (Product Management, Marketing).
 
@@ -65,9 +66,8 @@ not use the connect or message buttons.
 
 Also point the user at their school's own resources, which often beat LinkedIn for reply
 rates: the alumni directory (every business school has one, login required), the career
-center's platform (12twenty, Handshake), and club Slack channels. Anderson's alumni
-directory and the Andertech Slack are both better than a cold LinkedIn note for an Anderson
-student.
+center's platform (12twenty, Handshake), and club Slack channels. For a current student,
+the school's alumni directory and a club Slack channel both beat a cold LinkedIn note.
 
 ### 2. Web search (supplement; always verify)
 
@@ -103,22 +103,22 @@ Found 2026-10-22 from public profiles. Titles may be stale; confirm on the profi
 
 | # | Name | Current title | Shared with you | Found at | Why first |
 |---|---|---|---|---|---|
-| 1 | <Name> | Product Manager, Marketo Engage | Anderson FEMBA '25 | linkedin.com/in/... | Same program, same product you named as the target |
-| 2 | <Name> | Sr. PMM, Digital Experience | Anderson MBA '19 | business.adobe.com/blog/authors/... | Same school, in the group that posted the role |
-| 3 | <Name> | Group PM | MX Technologies 2021-2023 | linkedin.com/in/... | Former colleague; can refer |
+| 1 | <Name> | Product Manager, Marketo Engage | McCombs MBA '25 | linkedin.com/in/... | Same program, same product you named as the target |
+| 2 | <Name> | Sr. PMM, Digital Experience | McCombs MBA '19 | business.adobe.com/blog/authors/... | Same school, in the group that posted the role |
+| 3 | <Name> | Group PM | Acme Software 2021-2023 | linkedin.com/in/... | Former colleague; can refer |
 
 Suggested order: 1, then 3 (referral-eligible), then 2.
 
-Not yet checked: the Anderson alumni directory and the Andertech Slack. Both are logged-in
+Not yet checked: the McCombs alumni directory and the student Slack. Both are logged-in
 tools; ten minutes there usually turns up one or two more.
 
 ## Draft note to #1 (you send it; edit freely)
 
-Hi <First name>, I'm a FEMBA '28 at Anderson and I just applied to the Marketo Engage PM
-internship. I administered Marketo at three companies and co-led the SLC user group, so
+Hi <First name>, I'm a McCombs MBA '27 and I just applied to the Marketo Engage PM
+internship. I ran marketing automation at two companies and led our local user group, so
 the Email Designer launch has been fun to follow. Would you have 15 minutes in the next
 couple of weeks to tell me how the PM team works with the Marketo product? Happy to work
-around your calendar. Thanks, <Name>
+around your calendar. Thanks, Jane
 ```
 
 ## The note
@@ -148,5 +148,5 @@ outreach, which is separate from the application follow-up:
 
 ```
 python3 "$SKILL/scripts/tracker.py" update --file tracker.xlsx --company "<Co>" --role "<Title>" \
-  --notes "Warm paths: 3 found (2 Anderson, 1 ex-MX); note drafted for #1" --next "Send outreach note" --follow-up +3d
+  --notes "Warm paths: 3 found (2 McCombs, 1 ex-Acme); note drafted for #1" --next "Send outreach note" --follow-up +3d
 ```
