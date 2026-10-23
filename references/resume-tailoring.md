@@ -10,8 +10,8 @@ bullet; the tailored resume shows the ones this role cares about, in this role's
 
    | Must-have (posting's words) | Supporting fact | Where it will appear |
    |---|---|---|
-   | "experience with marketing automation platforms (Marketo, HubSpot)" | Marketo admin at MX, Pattern, Entrata; HubSpot at Wistia | Summary + Wistia bullet 1 + Skills |
-   | "comfort with SQL and dashboards" | SQL reporting at Wistia; weekly COO readout | Wistia bullet 2 |
+   | "experience with marketing automation platforms (Marketo, HubSpot)" | Marketo admin at Acme Software, Northwind, Fieldstone; HubSpot at Brightline | Summary + Brightline bullet 1 + Skills |
+   | "comfort with SQL and dashboards" | SQL reporting at Brightline; weekly COO readout | Brightline bullet 2 |
    | "shipped product" | Three App Store apps | Projects line |
 
    A must-have with an empty middle column is a gap. Ask the user; do not fill it.
@@ -69,17 +69,17 @@ The user approves against this file, so make it scannable:
 # Changes vs. master resume: Adobe, 2027 MBA Intern, Product Manager
 
 ## Added
-- Summary line (new): "..." Justified by: Marketo certs, Versured PM title, three shipped apps.
-- "agentic" in Wistia bullet 1. Justified by: profile line "Wistia agents used scoped API permissions and guardrails."
+- Summary line (new): "..." Justified by: Marketo certs, Harbor Labs PM title, three shipped apps.
+- "agentic" in Brightline bullet 1. Justified by: profile line "Brightline agents used scoped API permissions and guardrails."
 
 ## Rewritten
-- Wistia bullet 2, before: "..." after: "..." Why: posting asks for dashboards and executive presentation.
+- Brightline bullet 2, before: "..." after: "..." Why: posting asks for dashboards and executive presentation.
 
 ## Reordered
-- Education moved above Experience (Anderson format). Versured role moved up one bullet.
+- Education moved above Experience (McCombs format). Harbor Labs role moved up one bullet.
 
 ## Removed
-- Entrata bullet 3 (event logistics): not relevant, needed the space.
+- Fieldstone bullet 3 (event logistics): not relevant, needed the space.
 
 ## Still missing after tailoring
 - Power BI: not true (Tableau only). Left out.

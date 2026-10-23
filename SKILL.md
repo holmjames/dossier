@@ -120,7 +120,7 @@ Two modes; the user can mix them.
 - **Search.** The user gives criteria, or says "find me roles" or "anything new?" Steps:
 
   1. **Targets.** Read `## Targets` in `profile.md`. If it is empty or thin, run the targets
-     interview from Stage 0 first. A one-off narrowing ("just Utah this time") uses the
+     interview from Stage 0 first. A one-off narrowing ("just Texas this time") uses the
      narrower set without rewriting the profile.
   2. **Board index.** Read `## Board index` in `profile.md`. For any target company not yet
      indexed, discover its system and slug (sourcing.md, "Building the user's board index")

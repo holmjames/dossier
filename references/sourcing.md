@@ -130,7 +130,7 @@ than every row: save each description as `jd.txt` and run the scorer by hand.
 
 | # | Company | Title | Location / mode | Posted | Fit | Fit note | Flags |
 |---|---|---|---|---|---|---|---|
-| 1 | Adobe | 2027 MBA Intern, Product Manager | San Jose, CA / hybrid | Oct 2 | 71% | Marketo certs + PM title at Versured map to 4 of 6 must-haves | Requires full-time MBA enrollment |
+| 1 | Adobe | 2027 MBA Intern, Product Manager | San Jose, CA / hybrid | Oct 2 | 71% | Marketo certs + PM title at Harbor Labs map to 4 of 6 must-haves | Requires full-time MBA enrollment |
 
 Fit notes come from matching must-haves to `profile.md`, in one line. Flags are only hard
 constraints the user named or the posting states. Links go to the employer's own posting,

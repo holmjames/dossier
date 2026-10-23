@@ -38,7 +38,7 @@ company's own feed. Filled by discovery in Stage 1; "unknown" is a valid entry t
 ## Networks
 Used only to find warm paths into a company (Stage 2b): people who share an affiliation
 with the user and work there now. Public professional profiles only.
-- Schools, with program and class year (undergrad and graduate; "UCLA Anderson, FEMBA, 2028"):
+- Schools, with program and class year (undergrad and graduate; "UT Austin McCombs, MBA, 2027"):
 - Former employers (people who left for a target company are often the warmest path):
 - Professional communities, user groups, fellowships, military service, volunteer programs:
 - Outreach style: how they like to open a cold note, and a sign-off (kept in their voice):
