@@ -130,5 +130,5 @@ python3 scripts/ats_score.py --jd posting.txt --resume "My Resume.docx" --compan
 
 ## Feedback
 
-Tell James what broke or what you wish it did: holmjames25@gmail.com, or
+Tell James what broke or what you wish it did: open an issue on GitHub, or
 linkedin.com/in/jamesholm3.
